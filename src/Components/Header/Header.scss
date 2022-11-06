@@ -1,0 +1,46 @@
+@use '../../constants.scss';
+.main-header{
+    margin-bottom: -1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: constants.$padding;
+    background-color: constants.$primary;
+    a{
+        text-decoration: none;
+        color: inherit;
+        &:hover{
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+}
+
+.header-brand{
+    &:hover{
+        color: constants.$text-secondary;
+    }
+    font-weight: 500;
+    font-size: 1.2rem;
+
+   
+}
+
+.main-nav{
+    
+    display: inline-block;
+    a:hover{
+        border-bottom: 2px solid constants.$text-secondary;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    li{
+        margin: .5rem;
+        display: inline-block;
+    }
+}

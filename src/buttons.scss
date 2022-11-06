@@ -1,0 +1,27 @@
+@use 'constants';
+
+#button{
+    border: none;
+    padding: 1rem;
+    font-family: inherit;
+    border-radius: .4rem;
+    font-weight: bold;
+    margin: constants.$margin;
+    
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+.btn-primary{
+    @extend #button;
+    background: constants.$text-primary;
+    color: constants.$text-secondary;
+}
+
+.btn-secondary{
+    @extend #button;
+    background: constants.$text-secondary;
+    color: constants.$text-primary;
+}

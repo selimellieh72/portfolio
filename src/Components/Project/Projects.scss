@@ -1,0 +1,34 @@
+@use '../../constants';
+
+.project{
+    display: flex;
+    flex-direction: column;
+    background-color: constants.$text-secondary;
+    color: constants.$text-primary;
+    padding:  1rem;
+    margin: constants.$margin;
+    border-radius: .5rem;
+
+    .btn-primary {
+        margin: 0;
+        padding: .5rem;
+    }
+}
+
+.project__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+        margin: 0;
+    }
+    font-weight: 500;
+}
+
+.project__description{
+   
+}
+
+.spacer{
+    flex: 1;
+}

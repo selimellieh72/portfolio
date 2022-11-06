@@ -1,0 +1,37 @@
+@use 'constants';
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: constants.$text-primary;
+}
+
+section{
+    margin-bottom: -1px;
+    padding: constants.$padding;
+    text-align: center;
+
+    @media (max-width: 524px) {
+        padding: constants.$sm-padding;
+    }
+
+   
+}
+
+.animateOpacity{
+    animation: opacityAnimation 3s;
+}
+
+@keyframes opacityAnimation {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

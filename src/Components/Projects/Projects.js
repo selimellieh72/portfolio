@@ -10,6 +10,12 @@ const PROJECTS = [
     technology: "JavaScript",
   },
   {
+    name: "Zoey",
+    description: "A book exchange app",
+    github_link: "https://github.com/Ghaadyy/book-app-frontend",
+    technology: "React Native",
+  },
+  {
     name: "DistanciaMobile",
     description:
       "A cross-platform app implementation of Distancia ~ Digitalizing education",

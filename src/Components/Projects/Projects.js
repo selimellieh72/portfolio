@@ -17,6 +17,13 @@ const PROJECTS = [
     technology: "Flutter",
   },
   {
+    name: "SelimsErrorFinder",
+    description:
+      "A Python script that finds and fixes syntax errors in other Python scripts :D",
+    github_link: "https://github.com/selimellieh72/selimserrorfinder",
+    technology: "Python",
+  },
+  {
     name: "TicTactoeWeb",
     description: "Play TicTacToe against an unbeatable AI!",
     github_link: "https://github.com/selimellieh72/TicTacToeWeb",

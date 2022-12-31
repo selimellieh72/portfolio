@@ -16,6 +16,12 @@ const PROJECTS = [
     technology: "React Native",
   },
   {
+    name: "MetaMedApp",
+    description: "Purchase your meds online, wherever you are!",
+    github_link: "https://github.com/selimellieh72/MetaMedApp",
+    technology: "React Native",
+  },
+  {
     name: "DistanciaMobile",
     description:
       "A cross-platform app implementation of Distancia ~ Digitalizing education",

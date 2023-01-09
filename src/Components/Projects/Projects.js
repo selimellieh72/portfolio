@@ -22,6 +22,13 @@ const PROJECTS = [
     technology: "React Native",
   },
   {
+    name: "TwitterHashtagScrapper",
+    description:
+      "A handful Python script that scraps any number of tweets for a given hashtag name.",
+    github_link: "https://github.com/selimellieh72/TwitterHashtagScrapper",
+    technology: "Python",
+  },
+  {
     name: "DistanciaMobile",
     description:
       "A cross-platform app implementation of Distancia ~ Digitalizing education",

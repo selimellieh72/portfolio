@@ -16,6 +16,13 @@ const PROJECTS = [
     technology: "React Native",
   },
   {
+    name: "Styrate",
+    description:
+      "Beta sign-up page for an American Startup that landed multiple potential users",
+    link: "https://styrate.herokuapp.com/",
+    technology: "HTML and CSS",
+  },
+  {
     name: "MetaMedApp",
     description: "Purchase your meds online, wherever you are!",
     github_link: "https://github.com/selimellieh72/MetaMedApp",
